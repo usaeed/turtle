@@ -45,7 +45,7 @@ pipeline {
     }
     stage('Calender') {
       steps {
-        sh 'sh \'#!/usr/bin/sh -xe\\n date\''
+        sh 'sh \'#!/usr/bin/sh -xe\\n env\''
       }
     }
     stage('QA') {
