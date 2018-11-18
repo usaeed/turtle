@@ -45,7 +45,6 @@ pipeline {
     }
     stage('Calender') {
       steps {
-        sh 'sh \'#!/usr/bin/sh -xe\\n env\''
         echo 'Calender ...'
       }
     }
