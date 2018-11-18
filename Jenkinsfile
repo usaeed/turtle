@@ -55,7 +55,7 @@ pipeline {
     }
     stage('Finished') {
       steps {
-        sh 'echo "Hello world"'
+        echo 'yahoo .......'
       }
     }
   }
